@@ -1,7 +1,6 @@
 # Tsung-Han Yang, Ph.D.
 
 **Experimental & computational materials scientist** — quantum materials, neutron/X-ray scattering, DFT & phonon modeling, and scientific software.
-Postdoctoral Research Fellow, Oak Ridge National Laboratory (Spallation Neutron Source).
 
 🌐 [drthyang.github.io](https://drthyang.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/thyang-profile) · ✉️ thyang.careers@gmail.com
 
