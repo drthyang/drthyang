@@ -1,4 +1,4 @@
-# Tsung-Han Yang, Ph.D.
+# Tsung-Han Yang
 
 **Experimental & computational materials scientist** — quantum materials, neutron/X-ray scattering, DFT & phonon modeling, and scientific software.
 
