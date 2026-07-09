@@ -21,7 +21,7 @@ I like building at the boundary between experiments and computation: neutron/X-r
 
 I am building toward agentic AI for scattering and materials discovery: systems that go beyond chat and can use domain tools, understand scientific files, run refinement workflows, inspect intermediate results, and help decide what to try next.
 
-I am still learning and prototyping in this space, but this is a real direction I care about. One concrete thread is my own refinement package, which I want to grow into both a useful standalone tool and a tool/skill layer for research agents working on scattering, structure refinement, and materials analysis.
+I am still learning and prototyping in this space, but this is a real direction I care about. One concrete thread is my own [refinement package](https://drthyang.github.io/web-refinement/), whose scientific core is pure, side-effect-free TypeScript — the same functions that back the UI can be exposed as agent tools — which I want to grow into both a useful standalone tool and a tool/skill layer for research agents working on scattering, structure refinement, and materials analysis.
 
 ## Featured Research Tools
 
@@ -29,6 +29,7 @@ These are the more polished pieces of the bench: zero-install scientific web app
 
 | Tool | Research task | Why it is useful |
 |---|---|---|
+| [**Web Refinement Workbench**](https://drthyang.github.io/web-refinement/) | Refine crystal and magnetic structures (single-crystal and powder) in the browser. | Symmetry-constrained least-squares engine, a magnetic space-group / propagation-vector workflow, and a pure, tested core built to double as agent tools. |
 | [**NEBULA3D**](https://drthyang.github.io/nebula3d/) | Clean 3D reciprocal-space neutron diffuse-scattering volumes and compute 3D-ΔPDF maps. | Local Pyodide pipeline, float64 analysis, large-volume support, and an LLM-based AI assistant. |
 | [**rmc-toolkits**](https://drthyang.github.io/rmc-toolkits/) | Monitor and interpret RMCProfile fits. | Live diagnostics, interactive charts, space-group detection, 3D atomic density views, and an LLM-based AI assistant. |
 | [**rmc-phonon-dynamics**](https://drthyang.github.io/rmc-phonon-dynamics/) | Extract lattice dynamics from RMC ensembles. | Phonon bands, DOS, animated modes, and simulated INS spectra with WebGPU acceleration. |
