@@ -14,7 +14,7 @@ The more polished pieces of the bench: zero-install scientific web apps whose an
 
 | Tool | What it does | Highlights |
 |---|---|---|
-| [**Materia Workbench**](https://drthyang.github.io/web-refinement/) · [source](https://github.com/drthyang/web-refinement) | Refines crystal and magnetic structures — single-crystal & powder, X-ray & neutron (CW and TOF) — entirely in the browser. | AI-native by design: an MCP server exposes the same pure, tested core to LLM agents. Symmetry-constrained least squares, a magnetic space-group / k-vector workflow, validation against GSAS-II. |
+| [**MATERIA Workbench**](https://drthyang.github.io/web-refinement/) · [source](https://github.com/drthyang/web-refinement) | Refines crystal and magnetic structures — single-crystal & powder, X-ray & neutron (CW and TOF) — entirely in the browser. | AI-native by design: an MCP server exposes the same pure, tested core to LLM agents. Symmetry-constrained least squares, a magnetic space-group / k-vector workflow, validation against GSAS-II. |
 | [**NEBULA3D**](https://drthyang.github.io/nebula3d/) · [source](https://github.com/drthyang/nebula3d) | Cleans 3D reciprocal-space neutron diffuse-scattering volumes and computes 3D-ΔPDF maps. | Local Pyodide pipeline with float64 analysis and large-volume support; an LLM reasoning review grades each reduction. |
 | [**RMC Monitor**](https://drthyang.github.io/rmc-toolkits/) · [source](https://github.com/drthyang/rmc-toolkits) | Monitors and interprets RMCProfile fits straight from a run folder. | Live diagnostics, interactive charts, space-group detection, 3D atomic-density views, and an LLM-based AI assistant. |
 | [**RMC-PH**](https://drthyang.github.io/rmc-phonon-dynamics/) · [source](https://github.com/drthyang/rmc-phonon-dynamics) | Extracts lattice dynamics from RMC ensembles fitted to experimental scattering data. | Phonon bands, DOS, animated 3D modes, and simulated INS spectra with WebGPU acceleration. |
@@ -23,9 +23,9 @@ The more polished pieces of the bench: zero-install scientific web apps whose an
 
 I am building toward agentic AI for scattering and materials discovery: systems that go beyond chat and can use domain tools, understand scientific files, run refinement workflows, inspect intermediate results, and help decide what to try next.
 
-[**Materia**](https://drthyang.github.io/web-refinement/) is the concrete center of that effort — an AI-native foundation for materials science, built to be driven by LLM agents as well as by people. Its scientific core is pure, side-effect-free TypeScript, so the same engine that backs the UI is exposed to agents as tools. The first agent milestone has shipped: an MCP server that lets an agent parse, build, and refine a structure, then assess the result the way an expert would — parameter correlations, at-bound values, unexplained residuals — and suggest what to try next, rather than just reporting a scalar wR.
+[**MATERIA**](https://drthyang.github.io/web-refinement/) is the concrete center of that effort — an AI-native foundation for materials science, built to be driven by LLM agents as well as by people. Its scientific core is pure, side-effect-free TypeScript, so the same engine that backs the UI is exposed to agents as tools. The first agent milestone has shipped: an MCP server that lets an agent parse, build, and refine a structure, then assess the result the way an expert would — parameter correlations, at-bound values, unexplained residuals — and suggest what to try next, rather than just reporting a scalar wR.
 
-I am still learning and prototyping in this space, but it is a direction I care about: growing Materia into both a useful standalone workbench and a tool/skill layer for research agents working on scattering, structure refinement, and materials analysis.
+I am still learning and prototyping in this space, but it is a direction I care about: growing MATERIA into both a useful standalone workbench and a tool/skill layer for research agents working on scattering, structure refinement, and materials analysis.
 
 ## What You Will Find Here
 
