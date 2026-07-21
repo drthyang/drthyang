@@ -51,3 +51,5 @@ If you are interested in quantum materials, scattering, scientific visualization
 Python · NumPy · SciPy · pandas · TypeScript/React · WebGPU/WGSL · Pyodide · MCP / agent tools · FastAPI/Flask · Three.js · pytest · GitHub Actions CI
 
 For publications, research background, and CV, visit [drthyang.github.io](https://drthyang.github.io).
+
+*All projects here are personal work, developed and maintained in my personal capacity.*
