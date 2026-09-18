@@ -1,57 +1,61 @@
 # Tsung-Han Yang
 
-**Experimental & computational materials scientist** building research tools for scattering, refinement, quantum materials, and agentic AI.
+**Experimental & computational materials scientist** — neutron and X-ray scattering, crystallographic and magnetic symmetry, lattice dynamics, and the research software that connects a measurement to a structure.
 
 🌐 [drthyang.github.io](https://drthyang.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/thyang-profile) · ✉️ thyang.careers@gmail.com
 
-This GitHub is a working bench: part hobby space, part research toolbox, part learning archive. I use it to try new ideas, grow scientific tools, and build toward agentic AI workflows for scattering, refinement, and materials research.
+## Selected Publications
 
-I like building at the boundary between experiments and computation: neutron/X-ray scattering, DFT, phonons, reverse Monte Carlo, browser-based visualization, AI-assisted analysis, and small software systems that make research feel less fragile.
+- **Anomalous Hall Response Induced by Correlated Disorder in the Breathing Kagome Lattice Mn₃Sn** — under review (2026) · [arXiv:2609.09699](https://arxiv.org/abs/2609.09699)
+- **Intrinsic Topological Weyl Phase Transition Induced by a Magnetostructural Transformation in a Kagome Magnet** — *Nat. Commun.* **17**, 5063 (2026) · [10.1038/s41467-026-71683-7](https://doi.org/10.1038/s41467-026-71683-7)
+- **Simultaneous Development of Antiferromagnetism and Local Symmetry Breaking in a Kagome Magnet (Fe₀.₅₅Co₀.₄₅)Sn** — *J. Am. Chem. Soc.* **146**, 34374 (2024) · [10.1021/jacs.4c09387](https://doi.org/10.1021/jacs.4c09387)
+- **Jahn–Teller Driven Quadrupolar Ordering and Spin-orbital Dimer Formation in GaNb₄Se₈** — *Phys. Rev. B* **109**, 144101 (2024) · [10.1103/PhysRevB.109.144101](https://doi.org/10.1103/PhysRevB.109.144101)
+- **Bond Ordering and Molecular Spin-orbital Fluctuations in the Cluster Mott Insulator GaTa₄Se₈** — *Phys. Rev. Research* **4**, 033123 (2022) · [10.1103/PhysRevResearch.4.033123](https://doi.org/10.1103/PhysRevResearch.4.033123)
 
-## Featured Research Tools
+First author on all five. [Full list](https://drthyang.github.io/publications/).
 
-The more polished pieces of the bench: zero-install scientific web apps whose analysis pipelines run client-side, so unpublished data never leaves your machine. Click a tool name to launch it in your browser.
+## Research Software
 
-| Tool | What it does | Highlights |
+Tools that grew out of problems in the papers above — refining structures against measured scattering, and making the intermediate states of that process inspectable. The web apps run client-side, so unpublished data stays local. Click a name to launch it.
+
+| Tool | What it does | Validation |
 |---|---|---|
-| [**MATERIA Workbench**](https://drthyang.github.io/web-refinement/) · [source](https://github.com/drthyang/web-refinement) | Refines crystal and magnetic structures — single-crystal & powder, X-ray & neutron (CW and TOF), reciprocal-space & real-space PDF — entirely in the browser. | AI-native by design: 33 contract-tested MCP tools expose the same pure core to LLM agents. Symmetry-constrained least squares, magnetic space-group / k-vector workflows, symmetry-mode PDF fitting, mPDF validated against `diffpy.mpdf`, and Bayesian posterior sampling — 1111 tests in CI, validated against GSAS-II. |
-| [**NEBULA3D**](https://drthyang.github.io/nebula3d/) · [source](https://github.com/drthyang/nebula3d) | Cleans 3D reciprocal-space neutron diffuse-scattering volumes and computes 3D-ΔPDF maps. | Local Pyodide pipeline with float64 analysis and large-volume support; an LLM reasoning review grades each reduction. |
-| [**RMCProfile Workbench**](https://drthyang.github.io/rmc-toolkits/) · [source](https://github.com/drthyang/rmc-toolkits) | Monitors and interprets RMCProfile fits straight from a run folder. | Live diagnostics, interactive charts, space-group detection, 3D atomic-density views, PCA thermal ellipsoids reported in the crystallographic frame, solid-angle displacement-direction maps, and an LLM-based AI assistant. |
+| [**MATERIA Workbench**](https://drthyang.github.io/web-refinement/) · [source](https://github.com/drthyang/web-refinement) | Refines crystal and magnetic structures in the browser — single-crystal & powder, X-ray & neutron (CW and TOF), reciprocal-space & real-space PDF — on one pure-TypeScript core. | PDF engine agrees with `diffpy.pdffit2` at correlation 0.99982 (relRMS 0.019); mPDF f(r) matches `diffpy.mpdf` to 1e-6 of peak. Symmetry-constrained least squares, magnetic space-group / k-vector workflows, symmetry-mode PDF fitting, and Bayesian posterior sampling. The same pure core is exposed to LLM agents through contract-tested MCP tools. |
 | [**RMC-PH**](https://drthyang.github.io/rmc-phonon-dynamics/) · [source](https://github.com/drthyang/rmc-phonon-dynamics) | Extracts lattice dynamics from RMC ensembles fitted to experimental scattering data. | Phonon bands, DOS, animated 3D modes, and simulated INS spectra with WebGPU acceleration — bands and the S(Q,E)-derived DOS share one meV energy axis, so computed dispersion and measured spectrum read against each other. |
+| [**NEBULA3D**](https://drthyang.github.io/nebula3d/) · [source](https://github.com/drthyang/nebula3d) | Cleans 3D reciprocal-space neutron diffuse-scattering volumes and computes 3D-ΔPDF maps. | Local Pyodide pipeline with float64 analysis and large-volume support. |
+| [**RMCProfile Workbench**](https://drthyang.github.io/rmc-toolkits/) · [source](https://github.com/drthyang/rmc-toolkits) | Monitors and interprets RMCProfile fits straight from a run folder. | Live diagnostics, space-group detection, 3D atomic-density views, PCA thermal ellipsoids reported in the crystallographic frame, and solid-angle displacement-direction maps. |
 
-## Agentic AI for Materials
+## Applying ML to Scattering Problems
 
-I am building toward agentic AI for scattering and materials discovery: systems that go beyond chat and can use domain tools, understand scientific files, run refinement workflows, inspect intermediate results, and help decide what to try next.
+Early-stage work, and labelled as such. These repos apply pretrained models to materials questions; I have not trained or fine-tuned a model in public, and there is no held-out evaluation in them yet. That is the gap I am currently closing.
 
-[**MATERIA**](https://drthyang.github.io/web-refinement/) is the concrete center of that effort — an AI-native foundation for materials science, built to be driven by LLM agents as well as by people. Its scientific core is pure, side-effect-free TypeScript, so the same engine that backs the UI is exposed to agents as tools. The agent surface is now 33 contract-tested MCP tools spanning the powder, single-crystal, and PDF tracks: an agent can parse, build, and refine a structure, assess the result the way an expert would — parameter correlations, at-bound values, unexplained residuals — and sample the posterior for credible intervals, rather than just reporting a scalar wR.
+| Project | What it does | Honest status |
+|---|---|---|
+| [**MLIP disorder inference**](https://github.com/drthyang/mlip-disorder-inference) | Asks how much of the disorder in total-scattering data is *frozen* and how much is *motion*, using thermal ensembles from a machine-learned interatomic potential with quantum statistics as the physical null model. | Mode-projection engine reproduces published AMPLIMODES amplitudes to 0.4–3%. MACE is used as an ASE calculator, not trained. The G(r)/F(Q) forward closure is not yet quantitative. |
+| [**Athanor**](https://github.com/drthyang/agentic-ai-materials) | A closed-loop LLM agent for materials discovery — states a hypothesis, proposes candidates, screens with CHGNet relaxation, convex-hull stability, and MEGNet band gaps, reflects, and iterates. Runs on local models by default. | Prototype. Compared against non-LLM baselines, though the compute budgets were not matched; the comparison is being reworked before any result is claimed. |
+| [**LoRA from scratch**](https://github.com/drthyang/LoRA) | Low-rank adaptation in PyTorch with no `peft` and no `Trainer` — frozen base weights, `merge()`/`unmerge()` for zero-overhead inference, loss-masked instruction tuning. | Implementation and property tests are done; no completed training run or evaluation yet. The Conv1D transpose handling for GPT-2 was derived rather than copied. |
+| [**scattering-ai-sdk**](https://github.com/drthyang/scattering-ai-sdk) | An AI reasoning layer for scattering data: detects the technique, runs deterministic diagnostics, and returns a provenance-carrying report with figures. | Deterministic analysis first, LLM interpretation second. Maximal-subgroup output validated against International Tables, including conjugate-variant counts. |
 
-[**Athanor**](https://github.com/drthyang/agentic-ai-materials) is the exploratory end of the same question: a closed-loop agent that states a chemical hypothesis, proposes candidate compositions, screens them with physics-grounded surrogates — charge-balance filters, CHGNet relaxation, convex-hull stability, MEGNet band gaps — reflects in a lab notebook, and iterates, on local models by default. Every campaign is benchmarked against non-LLM baselines at equal compute, so "the agent helps" stays a claim with a control group. An early prototype, and reported as one.
+## What I Care About
 
-I am still learning and prototyping in this space, but it is a direction I care about: growing MATERIA into both a useful standalone workbench and a tool/skill layer for research agents working on scattering, structure refinement, and materials analysis.
+Universal machine-learned interatomic potentials are evaluated almost entirely against DFT energies and forces — rarely against what an instrument actually measured. I have the scattering background and most of the pipeline to close that loop, and it is where I want to take this work next.
 
-## What You Will Find Here
-
-- Research tools that grew out of real materials-science problems
-- Browser-native apps for data analysis, visualization, and modeling
-- Refinement packages and agent-ready toolsets for scattering and materials analysis
-- Experiments with Pyodide, WebGPU, Three.js, scientific user experience, and agentic AI workflows
-- Prototypes, notes, and learning projects from topics I am curious about
+The other thread: crystallographic symmetry is the same mathematics as equivariance. The irreducible representations behind symmetry-mode analysis and magnetic space groups are the ones equivariant architectures are built on, and that overlap is where my background is worth the most.
 
 ## How I Tend To Build
 
 - Start from a real research pain point, not from a technology demo
-- Keep unpublished data local whenever possible
+- State the null model before claiming an effect
 - Make intermediate states visible, inspectable, and easier to debug
-- For AI-assisted workflows, make tool calls, assumptions, and uncertainty visible
+- Report a number someone else can reproduce, or don't report it
 - Prefer a useful, honest prototype over a polished black box
-- Use modern web technology when it makes scientific workflows easier to share
 
-If you are interested in quantum materials, scattering, scientific visualization, agentic AI, or research software, this is where I keep the things I am actively testing and building. If you are looking for someone who can move between domain science and implementation, the projects here are meant to show both the questions I care about and how I like to solve them.
+## Stack
 
-## Current Stack
+**Materials & scattering** — Python · NumPy/SciPy · ASE · phonopy · spglib · hiPhive · pymatgen · SMACT · h5py · symmetry-mode and magnetic space-group analysis
 
-Python · NumPy · SciPy · pandas · TypeScript/React · WebGPU/WGSL · Pyodide · MCP / agent tools · FastAPI/Flask · Three.js · pytest · GitHub Actions CI
+**ML/AI (applied)** — PyTorch · HuggingFace transformers · MACE · CHGNet · MEGNet (matgl) · MCP agent tooling
 
-For publications, research background, and CV, visit [drthyang.github.io](https://drthyang.github.io).
+**Research software** — TypeScript/React · Vite/Vitest · WebGPU/WGSL · Pyodide · Three.js · FastAPI · pytest · GitHub Actions CI
 
 *All projects here are personal work, developed and maintained in my personal capacity.*
