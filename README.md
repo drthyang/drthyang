@@ -2,7 +2,7 @@
 
 **Experimental & computational materials scientist** building research tools for scattering, refinement, quantum materials, and agentic AI.
 
-🌐 [drthyang.github.io](https://drthyang.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/thyang-profile) · ✉️ thyang.careers@gmail.com
+🌐 [drthyang.github.io](https://drthyang.github.io) · 🎓 [Google Scholar](https://scholar.google.com/citations?user=oMIW2moAAAAJ&hl=en) · 🆔 [ORCID](https://orcid.org/0000-0003-0186-302X) · 💼 [LinkedIn](https://www.linkedin.com/in/thyang-profile) · ✉️ thyang.careers@gmail.com
 
 This GitHub is my working bench: part research toolbox, part hobby space, part learning archive. I build at the boundary between experiments and computation (neutron/X-ray scattering, DFT, phonons, reverse Monte Carlo) and write the browser apps, AI-assisted analysis, and small software systems that make that research less fragile.
 
