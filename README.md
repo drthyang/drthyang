@@ -10,13 +10,13 @@ This GitHub is my working bench: part research toolbox, part hobby space, part l
 
 Zero-install scientific web apps. The analysis runs in your browser, so unpublished data stays on your machine. Click a tool name to launch it.
 
-| Tool | What it does | Highlight |
+| Tool&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does | Highlight |
 |---|---|---|
 | [**MATERIA**](https://drthyang.github.io/materia-platform/)<br><sub>[source](https://github.com/drthyang/materia-platform)</sub> | Nuclear and magnetic structure refinement: powder, single crystal, PDF | One engine, cross-checked against GSAS-II and PDFfit2; MATERIA Copilot works the fit with you |
-| [**NeXus Viewer**](https://drthyang.github.io/neutron-nexus-viewer/)<br><sub>[source](https://github.com/drthyang/neutron-nexus-viewer)</sub> | Slices, symmetrizes and masks 3D scattering volumes | A first look without Mantid or scripts; one click sends it to NEBULA3D |
+| [**NeXus&nbsp;Viewer**](https://drthyang.github.io/neutron-nexus-viewer/)<br><sub>[source](https://github.com/drthyang/neutron-nexus-viewer)</sub> | Slices, symmetrizes and masks 3D scattering volumes | A first look without Mantid or scripts; one click sends it to NEBULA3D |
 | [**NEBULA3D**](https://drthyang.github.io/nebula3d/)<br><sub>[source](https://github.com/drthyang/nebula3d)</sub> | Turns diffuse-scattering volumes into 3D-ΔPDF maps | The full pipeline in the browser, up to about 80 M voxels; NEBULA Pilot tunes each stage |
-| [**RMCProfile Workbench**](https://drthyang.github.io/rmc-toolkits/)<br><sub>[source](https://github.com/drthyang/rmc-toolkits)</sub> | Monitors and interprets RMCProfile fits from a run folder | Fits, structures and displacements in one place; AI Copilot (beta) |
-| [**RMC Phonon**](https://drthyang.github.io/rmc-phonon-dynamics/)<br><sub>[source](https://github.com/drthyang/rmc-phonon-dynamics)</sub> | Phonon dispersions from RMCProfile ensembles | Harmonic phonons from the ensemble's displacement covariance; simulated INS on your GPU |
+| [**RMCProfile&nbsp;Workbench**](https://drthyang.github.io/rmc-toolkits/)<br><sub>[source](https://github.com/drthyang/rmc-toolkits)</sub> | Monitors and interprets RMCProfile fits from a run folder | Fits, structures and displacements in one place; AI Copilot (beta) |
+| [**RMC&nbsp;Phonon**](https://drthyang.github.io/rmc-phonon-dynamics/)<br><sub>[source](https://github.com/drthyang/rmc-phonon-dynamics)</sub> | Phonon dispersions from RMCProfile ensembles | Harmonic phonons from the ensemble's displacement covariance; simulated INS on your GPU |
 | [**MOTIF**](https://drthyang.github.io/motif/)<br><sub>[source](https://github.com/drthyang/motif)</sub> | Publication-quality crystal-structure figures from CIF and magnetic CIF | Editable vector SVG sized to a journal column; moments, modes, polyhedra, orbitals |
 
 ## Agentic AI for Scientific Software
