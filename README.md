@@ -13,11 +13,11 @@ Zero-install scientific web apps. The analysis runs in your browser, so unpublis
 | Tool&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does | Highlight |
 |---|---|---|
 | [**MATERIA**](https://drthyang.github.io/materia-platform/) | Nuclear and magnetic structure refinement: powder, single crystal, PDF | One engine, cross-checked against GSAS-II and PDFfit2; MATERIA Copilot works the fit with you |
-| [**MOTIF**](https://drthyang.github.io/motif/) | Publication-quality crystal-structure figures from CIF and magnetic CIF | Editable vector SVG sized to a journal column; moments, modes, polyhedra, orbitals |
 | [**NEBULA3D**](https://drthyang.github.io/nebula3d/) | Turns diffuse-scattering volumes into 3D-ΔPDF maps | The full pipeline in the browser, up to about 80 M voxels; NEBULA Pilot tunes each stage |
 | [**RMC&nbsp;Workbench**](https://drthyang.github.io/rmc-toolkits/) | Monitors and interprets RMCProfile fits from a run folder | Fits, structures and displacements in one place; AI Copilot (beta) |
-| [**RMC&nbsp;Phonon**](https://drthyang.github.io/rmc-phonon-dynamics/) | Phonon dispersions from RMCProfile ensembles | Harmonic phonons from the ensemble's displacement covariance; simulated INS on your GPU |
+| [**MOTIF**](https://drthyang.github.io/motif/) | Publication-quality crystal-structure figures from CIF and magnetic CIF | Editable vector SVG sized to a journal column; moments, modes, polyhedra, orbitals |
 | [**NeXus&nbsp;Viewer**](https://drthyang.github.io/neutron-nexus-viewer/) | Slices, symmetrizes and masks 3D scattering volumes | A first look without Mantid or scripts; one click sends it to NEBULA3D |
+| [**RMC&nbsp;Phonon**](https://drthyang.github.io/rmc-phonon-dynamics/) | Phonon dispersions from RMCProfile ensembles | Harmonic phonons from the ensemble's displacement covariance; simulated INS on your GPU |
 
 ## Agentic AI for Scientific Software
 
