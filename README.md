@@ -10,14 +10,14 @@ This GitHub is my working bench: part research toolbox, part hobby space, part l
 
 Zero-install scientific web apps. The analysis runs in your browser, so unpublished data stays on your machine. Click a tool name to launch it.
 
-| Tool | Highlight |
-|---|---|
-| [**MATERIA Workbench**](https://drthyang.github.io/materia-platform/) · [source](https://github.com/drthyang/materia-platform)<br>Crystal and magnetic structure refinement: powder, single crystal, PDF. | Nuclear and magnetic refinement on one engine, cross-checked against GSAS-II and PDFfit2; MATERIA Copilot, an in-app AI agent, works the fit with you, change by change. |
-| [**NeXus Viewer**](https://drthyang.github.io/neutron-nexus-viewer/) · [source](https://github.com/drthyang/neutron-nexus-viewer)<br>Slices, symmetrizes and masks 3D scattering volumes. | A first look at a 3D volume without Mantid or scripts; one click sends it to NEBULA3D. |
-| [**NEBULA3D**](https://drthyang.github.io/nebula3d/) · [source](https://github.com/drthyang/nebula3d)<br>Cleans diffuse-scattering volumes into 3D-ΔPDF maps. | The full 3D-ΔPDF pipeline in the browser, up to about 80 M voxels; NEBULA Pilot, an AI agent, grades and tunes each stage. |
-| [**RMCProfile Workbench**](https://drthyang.github.io/rmc-toolkits/) · [source](https://github.com/drthyang/rmc-toolkits)<br>Monitors and interprets RMCProfile fits from a run folder. | Fits, structures and atomic displacements in one place, without uploading data; AI Copilot (beta). |
-| [**RMC Phonon Dynamics**](https://drthyang.github.io/rmc-phonon-dynamics/) · [source](https://github.com/drthyang/rmc-phonon-dynamics)<br>Phonon dispersions from RMCProfile ensembles. | Estimates harmonic phonons from the displacement covariance of configurations fitted to total-scattering and diffraction data, not from DFT or a spectroscopy measurement; band structures, animated modes and simulated INS, computed on your GPU. |
-| [**MOTIF**](https://drthyang.github.io/motif/) · [source](https://github.com/drthyang/motif)<br>Publication-quality crystal structure figures from CIF and magnetic CIF. | Every atom, bond and arrow is its own shape in the saved SVG, with text in pt at the journal's column width; magnetic moments, distortion modes, polyhedra and orbitals; an in-app assistant and an MCP server for agents. |
+| Tool | What it does | Highlight |
+|---|---|---|
+| [**MATERIA Workbench**](https://drthyang.github.io/materia-platform/)<br><sub>[source](https://github.com/drthyang/materia-platform)</sub> | Nuclear and magnetic structure refinement: powder, single crystal, PDF | One engine, cross-checked against GSAS-II and PDFfit2; MATERIA Copilot works the fit with you |
+| [**NeXus Viewer**](https://drthyang.github.io/neutron-nexus-viewer/)<br><sub>[source](https://github.com/drthyang/neutron-nexus-viewer)</sub> | Slices, symmetrizes and masks 3D scattering volumes | A first look without Mantid or scripts; one click sends it to NEBULA3D |
+| [**NEBULA3D**](https://drthyang.github.io/nebula3d/)<br><sub>[source](https://github.com/drthyang/nebula3d)</sub> | Turns diffuse-scattering volumes into 3D-ΔPDF maps | The full pipeline in the browser, up to about 80 M voxels; NEBULA Pilot tunes each stage |
+| [**RMCProfile Workbench**](https://drthyang.github.io/rmc-toolkits/)<br><sub>[source](https://github.com/drthyang/rmc-toolkits)</sub> | Monitors and interprets RMCProfile fits from a run folder | Fits, structures and displacements in one place; AI Copilot (beta) |
+| [**RMC Phonon Dynamics**](https://drthyang.github.io/rmc-phonon-dynamics/)<br><sub>[source](https://github.com/drthyang/rmc-phonon-dynamics)</sub> | Phonon dispersions from RMCProfile ensembles | Harmonic phonons from the ensemble's displacement covariance; simulated INS on your GPU |
+| [**MOTIF**](https://drthyang.github.io/motif/)<br><sub>[source](https://github.com/drthyang/motif)</sub> | Publication-quality crystal-structure figures from CIF and magnetic CIF | Editable vector SVG sized to a journal column; moments, modes, polyhedra, orbitals |
 
 ## Agentic AI for Scientific Software
 
