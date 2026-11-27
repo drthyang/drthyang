@@ -15,7 +15,7 @@ Zero-install scientific web apps. The analysis runs in your browser, so unpublis
 | [**MATERIA**](https://drthyang.github.io/materia-platform/)<br><sub>[source](https://github.com/drthyang/materia-platform)</sub> | Nuclear and magnetic structure refinement: powder, single crystal, PDF | One engine, cross-checked against GSAS-II and PDFfit2; MATERIA Copilot works the fit with you |
 | [**NeXus&nbsp;Viewer**](https://drthyang.github.io/neutron-nexus-viewer/)<br><sub>[source](https://github.com/drthyang/neutron-nexus-viewer)</sub> | Slices, symmetrizes and masks 3D scattering volumes | A first look without Mantid or scripts; one click sends it to NEBULA3D |
 | [**NEBULA3D**](https://drthyang.github.io/nebula3d/)<br><sub>[source](https://github.com/drthyang/nebula3d)</sub> | Turns diffuse-scattering volumes into 3D-ΔPDF maps | The full pipeline in the browser, up to about 80 M voxels; NEBULA Pilot tunes each stage |
-| [**RMCProfile&nbsp;Workbench**](https://drthyang.github.io/rmc-toolkits/)<br><sub>[source](https://github.com/drthyang/rmc-toolkits)</sub> | Monitors and interprets RMCProfile fits from a run folder | Fits, structures and displacements in one place; AI Copilot (beta) |
+| [**RMC&nbsp;Workbench**](https://drthyang.github.io/rmc-toolkits/)<br><sub>[source](https://github.com/drthyang/rmc-toolkits)</sub> | Monitors and interprets RMCProfile fits from a run folder | Fits, structures and displacements in one place; AI Copilot (beta) |
 | [**RMC&nbsp;Phonon**](https://drthyang.github.io/rmc-phonon-dynamics/)<br><sub>[source](https://github.com/drthyang/rmc-phonon-dynamics)</sub> | Phonon dispersions from RMCProfile ensembles | Harmonic phonons from the ensemble's displacement covariance; simulated INS on your GPU |
 | [**MOTIF**](https://drthyang.github.io/motif/)<br><sub>[source](https://github.com/drthyang/motif)</sub> | Publication-quality crystal-structure figures from CIF and magnetic CIF | Editable vector SVG sized to a journal column; moments, modes, polyhedra, orbitals |
 
@@ -25,7 +25,7 @@ One design across my tools: the agent calls the same tested code the buttons cal
 
 - **MATERIA Copilot** in [MATERIA](https://drthyang.github.io/materia-platform/): solved the magnetic structure of a high-entropy AWO₄ from neutron powder data, end to end. It found the propagation vector, ranked the candidate magnetic space groups, and refined the moments with the nuclear model held; repeated live runs found the same k-vector, group and moment.
 - **NEBULA Pilot** in [NEBULA3D](https://drthyang.github.io/nebula3d/): passed 27/27 eval runs on Claude models, 15–17/27 on local 26–32B models.
-- **AI Copilot** in [RMCProfile Workbench](https://drthyang.github.io/rmc-toolkits/) (beta): checks every result in code; a computed contradiction overrides the model's verdict.
+- **AI Copilot** in [RMC Workbench](https://drthyang.github.io/rmc-toolkits/) (beta): checks every result in code; a computed contradiction overrides the model's verdict.
 - [**NEXPLAN**](https://drthyang.github.io/nexplan/): an experiment planner (in progress) whose calculations are MCP tools that write inputs for MATERIA and NEBULA3D.
 - [**Athanor**](https://github.com/drthyang/agentic-ai-materials) (exploratory): after I found and fixed two scoring defects, a fair rerun with a Claude proposer found more hits per run than every baseline; a local 32B model did not.
 
